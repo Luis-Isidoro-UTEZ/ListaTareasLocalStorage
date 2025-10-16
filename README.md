@@ -1,18 +1,24 @@
-Ejercicio: Lista de tareas con Local Storage
+# 📝 Lista de Tareas
 
-Descripción
-Crea una pequeña aplicación de lista de tareas usando HTML, CSS y JavaScript, donde el usuario pueda:
+Pequeña aplicación web hecha con **HTML, CSS y JavaScript** para practicar el uso de **Local Storage** sin JSON.
 
-Agregar nuevas tareas.
-Marcar tareas como completadas (haciendo clic sobre ellas).
-Guardar automáticamente las tareas en Local Storage (sin usar JSON).
-Debes aplicar estilos con CSS para que la app tenga una buena presentación.
+## 🚀 Funcionalidades
+- Agregar nuevas tareas.
+- Marcar tareas como completadas haciendo clic sobre ellas.
+- Guardado automático de las tareas usando `localStorage`.
+- Las tareas se mantienen después de recargar la página.
 
-Al finalizar, sube el proyecto a GitHub en un repositorio público.
+## 🛠️ Archivos del proyecto
+- `index.html` → Estructura principal.
+- `css/style.css` → Estilos visuales.
+- `js/script.js` → Lógica con JavaScript.
+- `README.md` → Descripción del proyecto.
 
-Criterios de aceptación
+## 💡 Cómo usar
+1. Abre el archivo `index.html` directamente en tu navegador.
+2. Escribe una tarea y presiona **Guardar Tarea**.
+3. Haz clic sobre una tarea para marcarla como completada.
 
-Funciona abriendo index.html directamente en el navegador.
-Las tareas se mantienen guardadas al recargar la página.
-El diseño tiene CSS propio.
-El repositorio incluye index.html, style.css, script.js y un README.md con una breve explicación.
+---
+
+🧑‍💻 Proyecto creado como práctica universitaria para aprender manipulación del DOM y almacenamiento local en el navegador.
