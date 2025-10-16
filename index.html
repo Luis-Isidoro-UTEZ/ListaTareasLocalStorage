@@ -3,16 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>localStorage</title>
+    <title>Lista de Tareas</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <h1 class="saludo">Hola!</h1>
+        <h1 class="title">Lista de Tareas</h1>
     </header>
     <main>
-        <label for="nombre">Escribe tu nombre</label>
-        <input type="text" class="nombre" id="nombre">
-        <button class="btnGuardar">Guardar</button>
+        <label for="tarea">Ingresa una tarea: </label>
+        <input type="text" class="tarea" id="tarea" placeholder="Ej. Hacer tarea de programación">
+        <button class="btnGuardar">Guardar Tarea</button>
+        <div class="tareas" id="tareas"></div>
     </main>
     <script src="js/script.js"></script>
 </body>
